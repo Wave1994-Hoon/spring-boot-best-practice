@@ -1,4 +1,4 @@
-package com.hoon.springbestpractice.global.account;
+package com.hoon.springbestpractice.doamin.account;
 
 import javax.persistence.*;
 
