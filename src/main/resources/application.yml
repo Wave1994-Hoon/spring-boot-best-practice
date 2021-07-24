@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-boot-example
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/spring-example?characterEncoding=utf8&connectionCollation=utf8mb4_unicode_ci&serverTimezone=UTC
+    username: root
+    password: 1234
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        default_batch_fetch_size: 500
+        show_sql: true
+        format_sql: true
